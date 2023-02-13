@@ -1,0 +1,79 @@
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 35rem;
+    width: 50rem;
+    margin-left: 200px;
+    list-style-type: none;
+}
+figure{
+    width: 33.3%;
+    height: 15rem;
+    border-radius: 10px 10px 10px 40px;
+    margin: 1em;
+    display: flex;
+    align-items:  flex-end;
+}
+
+
+
+figure:first-child, figure:nth-child(4), figure:nth-child(5){
+    height: 16rem;
+}
+figure:first-child{
+    background-image: linear-gradient(rgba(9 9 46 / 70%), rgba(14 14 60 / 70%)), url(/image/image1.jpg);
+    background-size:  200%;
+    background-position:center;
+}
+figure:nth-child(2){
+    background-image: linear-gradient(rgba(9 9 46 / 70%), rgba(14 14 60 / 70%)), url(image/image2.jpg);
+    background-size:  190%;
+    background-position: center;
+}
+figure:nth-child(3){
+    background-image:linear-gradient(rgba(9 9 46 / 70%), rgba(14 14 60 / 70%)), url(image/image3.jpg);
+    background-size:  190%;
+    background-position: center;
+}
+figure:nth-child(4){
+    background-image:linear-gradient(rgba(9 9 46 / 70%), rgba(14 14 60 / 70%)), url(image/image4.jpg);
+    background-size:  190%;
+    background-position: center;
+}
+figure:nth-child(5){
+    background-image: linear-gradient(rgba(9 9 46 / 70%), rgba(14 14 60 / 70%)),url(image/image5.jpg);
+    background-size:  200%;
+    background-position: center;
+}
+figure:nth-child(6){
+    background-image:linear-gradient(rgba(9 9 46 / 70%), rgba(14 14 60 / 70%)), url(image/image6.jpg);
+    background-size:  190%;
+    background-position: center;
+}
+
+
+ul{
+    list-style: none;
+    flex-direction: column;
+}
+
+li{
+    color: white;
+}
+
+li:first-child{
+    background-color: rgba(240, 165, 90);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 15px;
+    display: inline-block;
+    font-size: 10px;
+}
+
+li:nth-child(2){
+    font-size: 1.2em;
+
+}
+
+
